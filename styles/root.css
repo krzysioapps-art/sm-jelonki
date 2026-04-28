@@ -1,0 +1,52 @@
+:root {
+  --header-height: 76px;
+  --header-height-tablet: 72px;
+  --header-height-mobile: 68px;
+
+  --max-content-width: 1400px;
+
+  --container-padding: 24px;
+  --container-padding-tablet: 20px;
+  --container-padding-mobile: 16px;
+
+  --section-space: 72px;
+  --section-space-mobile: 48px;
+
+  /* PRIMARY */
+  --color-primary: #4f8f2f;
+  --color-primary-soft: #e6f2d8;
+  --color-primary-dark: #3e7424;
+
+  /* SKY / ACCENT */
+  --color-blue: #7fb7d9;
+
+  /* BACKGROUNDS */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f3f5f6;
+  --color-surface: #eef3f0;
+  --color-hover: #fcfdfc;
+
+  /* TEXT */
+  --color-text: #111111;
+  --color-text-muted: #61656a;
+
+  /* BORDERS */
+  --color-border: #dde3e6;
+
+  /* STATUS */
+
+  --color-red: #c62828;
+  --color-red-bg: #fdeaea;
+
+  --color-yellow: #e2a41a;
+  --color-yellow-bg: #fff6da;
+
+  /* RADII */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-btn: 9999px;
+
+  --transition: 0.2s ease;
+}

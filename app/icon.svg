@@ -1,0 +1,18 @@
+<svg width="1400" height="1400" viewBox="0 0 1400 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- lewa zielona podstawa -->
+  <path d="M70 1220 L440 1170 L440 1188 L70 1220 Z" fill="#4f8f2f"/>
+
+  <!-- zielony klocek lewy -->
+  <path d="M410 520 L580 460 L580 1170 L410 1175 Z" fill="#4f8f2f"/>
+
+  <!-- zielony klocek środkowy wysoki -->
+  <path d="M605 120 L775 40 L775 1170 L730 1170 L730 430 L605 390 Z" fill="#4f8f2f"/>
+
+  <!-- szary klocek środkowy -->
+  <path d="M820 520 L990 570 L990 760 L890 800 L890 1170 L820 1170 Z" fill="#CFCFD1"/>
+
+  <!-- szary klocek prawy -->
+  <path d="M1015 760 L1180 810 L1180 1170 L1320 1200 L1015 1175 Z" fill="#CFCFD1"/>
+
+</svg>

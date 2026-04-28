@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  padding-top: var(--header-height);
+}
+
+@media (max-width: 1024px) {
+  main {
+    padding-top: var(--header-height-tablet);
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding-top: var(--header-height-mobile);
+  }
+}

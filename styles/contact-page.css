@@ -1,0 +1,268 @@
+.contact-page__header {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+
+.contact-page__eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.contact-page__title {
+  margin: 0 0 14px;
+}
+
+.contact-page__text {
+  margin: 0;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+}
+
+.contact-page__grid {
+  display: grid;
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 32px;
+}
+
+.contact-page__group + .contact-page__group {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-page__group h2,
+.contact-page__group h3 {
+  margin: 0 0 12px;
+}
+
+.contact-page__group p {
+  margin: 0 0 10px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+.contact-page__group a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.contact-page__group a:hover {
+  color: var(--color-primary-dark);
+}
+
+.contact-page__hours {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.contact-page__hours-card {
+  padding: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-bg);
+}
+
+.contact-page__hours-title {
+  margin: 0 0 18px;
+  font-size: 1.15rem;
+}
+
+.contact-page__hours-list {
+  display: grid;
+}
+
+.contact-page__hours-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-page__hours-row:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.contact-page__hours-row:last-child {
+  padding-bottom: 0;
+}
+
+.contact-page__hours-row span {
+  color: var(--color-text-muted);
+}
+
+.contact-page__hours-row strong {
+  font-weight: 700;
+  text-align: right;
+  color: var(--color-text);
+}
+
+@media (max-width: 1200px) {
+  .contact-page__hours {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page__header {
+    margin-bottom: 32px;
+  }
+
+  .contact-page__grid {
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .contact-page__hours-card {
+    padding: 22px;
+  }
+
+  .contact-page__hours-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .contact-page__hours-row strong {
+    text-align: left;
+  }
+}
+
+/* SEKcja AWARIE / POMOC TECHNICZNA */
+
+.contact-page__emergency {
+  margin-bottom: 32px;
+}
+
+.contact-page__emergency-card {
+  padding: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-bg);
+}
+
+.contact-page__emergency-top {
+  margin-bottom: 18px;
+}
+
+.contact-page__emergency-eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.contact-page__emergency-title {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+
+.contact-page__emergency-text {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+.contact-page__emergency-list {
+  display: grid;
+  margin-bottom: 18px;
+}
+
+.contact-page__emergency-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-page__emergency-row:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.contact-page__emergency-row:last-child {
+  padding-bottom: 0;
+}
+
+.contact-page__emergency-row span {
+  color: var(--color-text-muted);
+}
+
+.contact-page__emergency-row strong {
+  font-weight: 700;
+  text-align: right;
+  color: var(--color-text);
+}
+
+.contact-page__emergency-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 46px;
+  padding: 0 18px;
+
+  border-radius: var(--radius-btn);
+  background: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+
+  transition:
+    background var(--transition),
+    transform var(--transition);
+}
+
+.contact-page__emergency-button:hover {
+  background: var(--color-primary-dark);
+}
+
+.contact-page__emergency-button:active {
+  transform: translateY(1px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .contact-page__emergency {
+    margin-bottom: 24px;
+  }
+
+  .contact-page__emergency-card {
+    padding: 22px;
+  }
+
+  .contact-page__emergency-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .contact-page__emergency-row strong {
+    text-align: left;
+  }
+
+  .contact-page__emergency-button {
+    width: 100%;
+  }
+}
